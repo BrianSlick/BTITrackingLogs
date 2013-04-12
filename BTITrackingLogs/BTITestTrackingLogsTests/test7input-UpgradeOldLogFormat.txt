@@ -1,0 +1,11 @@
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	if (something)
+	{
+		NSLog(@"<<< Leaving %s >>> EARLY - Something bad happened", __PRETTY_FUNCTION__);
+		return;
+	}
+
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}

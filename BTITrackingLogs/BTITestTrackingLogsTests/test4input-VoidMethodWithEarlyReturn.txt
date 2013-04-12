@@ -1,0 +1,8 @@
+{
+	if (someCondition)
+	{
+		return;
+	}
+
+	// Now do the real work
+}

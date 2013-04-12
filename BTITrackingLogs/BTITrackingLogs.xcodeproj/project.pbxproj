@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3635ECAA1717028800C771B1 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECA91717028800C771B1 /* Automator.framework */; };
+		3635ECAC1717028800C771B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECAB1717028800C771B1 /* Cocoa.framework */; };
+		3635ECB61717028800C771B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECB41717028800C771B1 /* InfoPlist.strings */; };
+		3635ECB91717028800C771B1 /* BTITrackingLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ECB81717028800C771B1 /* BTITrackingLogs.m */; };
+		3635ECBC1717028800C771B1 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECBA1717028800C771B1 /* main.xib */; };
+		3635ECC9171702C700C771B1 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECA91717028800C771B1 /* Automator.framework */; };
+		3635ECCA171702C700C771B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECAB1717028800C771B1 /* Cocoa.framework */; };
+		3635ECD0171702C700C771B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECCE171702C700C771B1 /* InfoPlist.strings */; };
+		3635ECD3171702C700C771B1 /* NSTrackingLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ECD2171702C700C771B1 /* NSTrackingLogs.m */; };
+		3635ECD6171702C700C771B1 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECD4171702C700C771B1 /* main.xib */; };
+		3635ECE01717030F00C771B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECAB1717028800C771B1 /* Cocoa.framework */; };
+		3635ECE61717031000C771B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECE41717031000C771B1 /* InfoPlist.strings */; };
+		3635ECE81717031000C771B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ECE71717031000C771B1 /* main.m */; };
+		3635ECEC1717031000C771B1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECEA1717031000C771B1 /* Credits.rtf */; };
+		3635ECEF1717031000C771B1 /* BTIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ECEE1717031000C771B1 /* BTIAppDelegate.m */; };
+		3635ECF21717031000C771B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECF01717031000C771B1 /* MainMenu.xib */; };
+		3635ECFA1717031000C771B1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECF91717031000C771B1 /* SenTestingKit.framework */; };
+		3635ECFB1717031000C771B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECAB1717028800C771B1 /* Cocoa.framework */; };
+		3635ED031717031000C771B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED011717031000C771B1 /* InfoPlist.strings */; };
+		3635ED061717031000C771B1 /* BTITestTrackingLogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED051717031000C771B1 /* BTITestTrackingLogsTests.m */; };
+		3635ED101717036000C771B1 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED0F1717036000C771B1 /* NSString+BTIAdditions.m */; };
+		3635ED111717036000C771B1 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED0F1717036000C771B1 /* NSString+BTIAdditions.m */; };
+		3635ED121717036000C771B1 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED0F1717036000C771B1 /* NSString+BTIAdditions.m */; };
+		3635ED131717036000C771B1 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED0F1717036000C771B1 /* NSString+BTIAdditions.m */; };
+		3635ED17171706CB00C771B1 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED16171706CB00C771B1 /* BTIStringProcessor.m */; };
+		3635ED18171706CB00C771B1 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED16171706CB00C771B1 /* BTIStringProcessor.m */; };
+		3635ED19171706CB00C771B1 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED16171706CB00C771B1 /* BTIStringProcessor.m */; };
+		3635ED1A171706CB00C771B1 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635ED16171706CB00C771B1 /* BTIStringProcessor.m */; };
+		3635ED1C171725D000C771B1 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED1B171725D000C771B1 /* livetest.txt */; };
+		3635ED1D171725D000C771B1 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED1B171725D000C771B1 /* livetest.txt */; };
+		3635ED1E171725D000C771B1 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED1B171725D000C771B1 /* livetest.txt */; };
+		3635ED1F171725D000C771B1 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED1B171725D000C771B1 /* livetest.txt */; };
+		3635ED22171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED21171731A600C771B1 /* test1input-UnsupportedInput.txt */; };
+		3635ED23171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED21171731A600C771B1 /* test1input-UnsupportedInput.txt */; };
+		3635ED24171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED21171731A600C771B1 /* test1input-UnsupportedInput.txt */; };
+		3635ED25171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED21171731A600C771B1 /* test1input-UnsupportedInput.txt */; };
+		3635ED271717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED261717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt */; };
+		3635ED281717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED261717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt */; };
+		3635ED291717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED261717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt */; };
+		3635ED2A1717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED261717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt */; };
+		3635ED2C1717339D00C771B1 /* test2output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED2B1717339D00C771B1 /* test2output-nslog.txt */; };
+		3635ED2D1717339D00C771B1 /* test2output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED2B1717339D00C771B1 /* test2output-nslog.txt */; };
+		3635ED2E1717339D00C771B1 /* test2output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED2B1717339D00C771B1 /* test2output-nslog.txt */; };
+		3635ED2F1717339D00C771B1 /* test2output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED2B1717339D00C771B1 /* test2output-nslog.txt */; };
+		3635ED311717361600C771B1 /* test2output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED301717361600C771B1 /* test2output-btilog.txt */; };
+		3635ED321717361600C771B1 /* test2output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED301717361600C771B1 /* test2output-btilog.txt */; };
+		3635ED331717361600C771B1 /* test2output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED301717361600C771B1 /* test2output-btilog.txt */; };
+		3635ED341717361600C771B1 /* test2output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED301717361600C771B1 /* test2output-btilog.txt */; };
+		3635ED36171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED35171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt */; };
+		3635ED37171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED35171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt */; };
+		3635ED38171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED35171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt */; };
+		3635ED39171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED35171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt */; };
+		3635ED3B1717371400C771B1 /* test3output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3A1717371400C771B1 /* test3output-nslog.txt */; };
+		3635ED3C1717371400C771B1 /* test3output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3A1717371400C771B1 /* test3output-nslog.txt */; };
+		3635ED3D1717371400C771B1 /* test3output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3A1717371400C771B1 /* test3output-nslog.txt */; };
+		3635ED3E1717371400C771B1 /* test3output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3A1717371400C771B1 /* test3output-nslog.txt */; };
+		3635ED401717372000C771B1 /* test3output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3F1717372000C771B1 /* test3output-btilog.txt */; };
+		3635ED411717372000C771B1 /* test3output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3F1717372000C771B1 /* test3output-btilog.txt */; };
+		3635ED421717372000C771B1 /* test3output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3F1717372000C771B1 /* test3output-btilog.txt */; };
+		3635ED431717372000C771B1 /* test3output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED3F1717372000C771B1 /* test3output-btilog.txt */; };
+		3635ED45171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED44171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt */; };
+		3635ED46171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED44171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt */; };
+		3635ED47171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED44171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt */; };
+		3635ED48171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED44171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt */; };
+		3635ED4A171738BB00C771B1 /* test4output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED49171738BB00C771B1 /* test4output-nslog.txt */; };
+		3635ED4B171738BB00C771B1 /* test4output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED49171738BB00C771B1 /* test4output-nslog.txt */; };
+		3635ED4C171738BB00C771B1 /* test4output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED49171738BB00C771B1 /* test4output-nslog.txt */; };
+		3635ED4D171738BB00C771B1 /* test4output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED49171738BB00C771B1 /* test4output-nslog.txt */; };
+		3635ED4F171738CA00C771B1 /* test4output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED4E171738CA00C771B1 /* test4output-btilog.txt */; };
+		3635ED50171738CA00C771B1 /* test4output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED4E171738CA00C771B1 /* test4output-btilog.txt */; };
+		3635ED51171738CA00C771B1 /* test4output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED4E171738CA00C771B1 /* test4output-btilog.txt */; };
+		3635ED52171738CA00C771B1 /* test4output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED4E171738CA00C771B1 /* test4output-btilog.txt */; };
+		3635ED5417173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5317173BB100C771B1 /* test5input-ReturnInsideBlock.txt */; };
+		3635ED5517173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5317173BB100C771B1 /* test5input-ReturnInsideBlock.txt */; };
+		3635ED5617173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5317173BB100C771B1 /* test5input-ReturnInsideBlock.txt */; };
+		3635ED5717173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5317173BB100C771B1 /* test5input-ReturnInsideBlock.txt */; };
+		3635ED5917173C1500C771B1 /* test5output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5817173C1500C771B1 /* test5output-nslog.txt */; };
+		3635ED5A17173C1500C771B1 /* test5output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5817173C1500C771B1 /* test5output-nslog.txt */; };
+		3635ED5B17173C1500C771B1 /* test5output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5817173C1500C771B1 /* test5output-nslog.txt */; };
+		3635ED5C17173C1500C771B1 /* test5output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5817173C1500C771B1 /* test5output-nslog.txt */; };
+		3635ED5E17173C4500C771B1 /* test5output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5D17173C4500C771B1 /* test5output-btilog.txt */; };
+		3635ED5F17173C4500C771B1 /* test5output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5D17173C4500C771B1 /* test5output-btilog.txt */; };
+		3635ED6017173C4500C771B1 /* test5output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5D17173C4500C771B1 /* test5output-btilog.txt */; };
+		3635ED6117173C4500C771B1 /* test5output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED5D17173C4500C771B1 /* test5output-btilog.txt */; };
+		3635ED6317173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6217173DD100C771B1 /* test6input-ExistingNSLog.txt */; };
+		3635ED6417173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6217173DD100C771B1 /* test6input-ExistingNSLog.txt */; };
+		3635ED6517173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6217173DD100C771B1 /* test6input-ExistingNSLog.txt */; };
+		3635ED6617173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6217173DD100C771B1 /* test6input-ExistingNSLog.txt */; };
+		3635ED6817173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6717173DE000C771B1 /* test6input-ExistingBTILog.txt */; };
+		3635ED6917173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6717173DE000C771B1 /* test6input-ExistingBTILog.txt */; };
+		3635ED6A17173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6717173DE000C771B1 /* test6input-ExistingBTILog.txt */; };
+		3635ED6B17173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6717173DE000C771B1 /* test6input-ExistingBTILog.txt */; };
+		3635ED6D17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */; };
+		3635ED6E17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */; };
+		3635ED6F17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */; };
+		3635ED7017174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */; };
+		3635ED7217174BB800C771B1 /* test7output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7117174BB800C771B1 /* test7output-nslog.txt */; };
+		3635ED7317174BB800C771B1 /* test7output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7117174BB800C771B1 /* test7output-nslog.txt */; };
+		3635ED7417174BB800C771B1 /* test7output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7117174BB800C771B1 /* test7output-nslog.txt */; };
+		3635ED7517174BB800C771B1 /* test7output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7117174BB800C771B1 /* test7output-nslog.txt */; };
+		3635ED7717174BC500C771B1 /* test7output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7617174BC400C771B1 /* test7output-btilog.txt */; };
+		3635ED7817174BC500C771B1 /* test7output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7617174BC400C771B1 /* test7output-btilog.txt */; };
+		3635ED7917174BC500C771B1 /* test7output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7617174BC400C771B1 /* test7output-btilog.txt */; };
+		3635ED7A17174BC500C771B1 /* test7output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3635ED7617174BC400C771B1 /* test7output-btilog.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3635ECFC1717031000C771B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3635EC9D1717028800C771B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3635ECDE1717030F00C771B1;
+			remoteInfo = BTITestTrackingLogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3635ECA61717028800C771B1 /* BTITrackingLogs.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTITrackingLogs.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		3635ECA91717028800C771B1 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		3635ECAB1717028800C771B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3635ECAE1717028800C771B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3635ECAF1717028800C771B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3635ECB01717028800C771B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3635ECB31717028800C771B1 /* BTITrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		3635ECB51717028800C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3635ECB71717028800C771B1 /* BTITrackingLogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTITrackingLogs.h; sourceTree = "<group>"; };
+		3635ECB81717028800C771B1 /* BTITrackingLogs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTITrackingLogs.m; sourceTree = "<group>"; };
+		3635ECBB1717028800C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		3635ECBD1717028800C771B1 /* BTITrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTITrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		3635ECC8171702C700C771B1 /* NSTrackingLogs.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTrackingLogs.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		3635ECCD171702C700C771B1 /* NSTrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		3635ECCF171702C700C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3635ECD1171702C700C771B1 /* NSTrackingLogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTrackingLogs.h; sourceTree = "<group>"; };
+		3635ECD2171702C700C771B1 /* NSTrackingLogs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTrackingLogs.m; sourceTree = "<group>"; };
+		3635ECD5171702C700C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		3635ECD7171702C700C771B1 /* NSTrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		3635ECDF1717030F00C771B1 /* BTITestTrackingLogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTITestTrackingLogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3635ECE31717031000C771B1 /* BTITestTrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITestTrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		3635ECE51717031000C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3635ECE71717031000C771B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3635ECE91717031000C771B1 /* BTITestTrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTITestTrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		3635ECEB1717031000C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3635ECED1717031000C771B1 /* BTIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTIAppDelegate.h; sourceTree = "<group>"; };
+		3635ECEE1717031000C771B1 /* BTIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTIAppDelegate.m; sourceTree = "<group>"; };
+		3635ECF11717031000C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3635ECF81717031000C771B1 /* BTITestTrackingLogsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTITestTrackingLogsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3635ECF91717031000C771B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3635ED001717031000C771B1 /* BTITestTrackingLogsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITestTrackingLogsTests-Info.plist"; sourceTree = "<group>"; };
+		3635ED021717031000C771B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3635ED041717031000C771B1 /* BTITestTrackingLogsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTITestTrackingLogsTests.h; sourceTree = "<group>"; };
+		3635ED051717031000C771B1 /* BTITestTrackingLogsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTITestTrackingLogsTests.m; sourceTree = "<group>"; };
+		3635ED0E1717036000C771B1 /* NSString+BTIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BTIAdditions.h"; sourceTree = "<group>"; };
+		3635ED0F1717036000C771B1 /* NSString+BTIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BTIAdditions.m"; sourceTree = "<group>"; };
+		3635ED15171706CB00C771B1 /* BTIStringProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIStringProcessor.h; sourceTree = "<group>"; };
+		3635ED16171706CB00C771B1 /* BTIStringProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIStringProcessor.m; sourceTree = "<group>"; };
+		3635ED1B171725D000C771B1 /* livetest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = livetest.txt; sourceTree = "<group>"; };
+		3635ED21171731A600C771B1 /* test1input-UnsupportedInput.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test1input-UnsupportedInput.txt"; sourceTree = "<group>"; };
+		3635ED261717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test2input-SimpleMethodWithoutReturns.txt"; sourceTree = "<group>"; };
+		3635ED2B1717339D00C771B1 /* test2output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test2output-nslog.txt"; sourceTree = "<group>"; };
+		3635ED301717361600C771B1 /* test2output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test2output-btilog.txt"; sourceTree = "<group>"; };
+		3635ED35171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test3input-SimpleMethodWithSingleReturn.txt"; sourceTree = "<group>"; };
+		3635ED3A1717371400C771B1 /* test3output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test3output-nslog.txt"; sourceTree = "<group>"; };
+		3635ED3F1717372000C771B1 /* test3output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test3output-btilog.txt"; sourceTree = "<group>"; };
+		3635ED44171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test4input-VoidMethodWithEarlyReturn.txt"; sourceTree = "<group>"; };
+		3635ED49171738BB00C771B1 /* test4output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test4output-nslog.txt"; sourceTree = "<group>"; };
+		3635ED4E171738CA00C771B1 /* test4output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test4output-btilog.txt"; sourceTree = "<group>"; };
+		3635ED5317173BB100C771B1 /* test5input-ReturnInsideBlock.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test5input-ReturnInsideBlock.txt"; sourceTree = "<group>"; };
+		3635ED5817173C1500C771B1 /* test5output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test5output-nslog.txt"; sourceTree = "<group>"; };
+		3635ED5D17173C4500C771B1 /* test5output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test5output-btilog.txt"; sourceTree = "<group>"; };
+		3635ED6217173DD100C771B1 /* test6input-ExistingNSLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test6input-ExistingNSLog.txt"; sourceTree = "<group>"; };
+		3635ED6717173DE000C771B1 /* test6input-ExistingBTILog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test6input-ExistingBTILog.txt"; sourceTree = "<group>"; };
+		3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test7input-UpgradeOldLogFormat.txt"; sourceTree = "<group>"; };
+		3635ED7117174BB800C771B1 /* test7output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test7output-nslog.txt"; sourceTree = "<group>"; };
+		3635ED7617174BC400C771B1 /* test7output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test7output-btilog.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3635ECA21717028800C771B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECAA1717028800C771B1 /* Automator.framework in Frameworks */,
+				3635ECAC1717028800C771B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECC4171702C700C771B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECC9171702C700C771B1 /* Automator.framework in Frameworks */,
+				3635ECCA171702C700C771B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECDC1717030F00C771B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECE01717030F00C771B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECF41717031000C771B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECFA1717031000C771B1 /* SenTestingKit.framework in Frameworks */,
+				3635ECFB1717031000C771B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3635EC9C1717028800C771B1 = {
+			isa = PBXGroup;
+			children = (
+				3635ED14171703A300C771B1 /* Models */,
+				3635ED0D1717034E00C771B1 /* Categories */,
+				3635ECB11717028800C771B1 /* BTITrackingLog Automator Action */,
+				3635ECCB171702C700C771B1 /* NSLog Automator Action */,
+				3635ECE11717030F00C771B1 /* OS X App For Testing */,
+				3635ECFE1717031000C771B1 /* Unit Tests */,
+				3635ECA81717028800C771B1 /* Frameworks */,
+				3635ECA71717028800C771B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3635ECA71717028800C771B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECA61717028800C771B1 /* BTITrackingLogs.action */,
+				3635ECC8171702C700C771B1 /* NSTrackingLogs.action */,
+				3635ECDF1717030F00C771B1 /* BTITestTrackingLogs.app */,
+				3635ECF81717031000C771B1 /* BTITestTrackingLogsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3635ECA81717028800C771B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECA91717028800C771B1 /* Automator.framework */,
+				3635ECAB1717028800C771B1 /* Cocoa.framework */,
+				3635ECF91717031000C771B1 /* SenTestingKit.framework */,
+				3635ECAD1717028800C771B1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3635ECAD1717028800C771B1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECAE1717028800C771B1 /* AppKit.framework */,
+				3635ECAF1717028800C771B1 /* CoreData.framework */,
+				3635ECB01717028800C771B1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3635ECB11717028800C771B1 /* BTITrackingLog Automator Action */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECB71717028800C771B1 /* BTITrackingLogs.h */,
+				3635ECB81717028800C771B1 /* BTITrackingLogs.m */,
+				3635ECBA1717028800C771B1 /* main.xib */,
+				3635ECB21717028800C771B1 /* Supporting Files */,
+			);
+			name = "BTITrackingLog Automator Action";
+			path = BTITrackingLogs;
+			sourceTree = "<group>";
+		};
+		3635ECB21717028800C771B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECB31717028800C771B1 /* BTITrackingLogs-Info.plist */,
+				3635ECB41717028800C771B1 /* InfoPlist.strings */,
+				3635ECBD1717028800C771B1 /* BTITrackingLogs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3635ECCB171702C700C771B1 /* NSLog Automator Action */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECD1171702C700C771B1 /* NSTrackingLogs.h */,
+				3635ECD2171702C700C771B1 /* NSTrackingLogs.m */,
+				3635ECD4171702C700C771B1 /* main.xib */,
+				3635ECCC171702C700C771B1 /* Supporting Files */,
+			);
+			name = "NSLog Automator Action";
+			path = NSTrackingLogs;
+			sourceTree = "<group>";
+		};
+		3635ECCC171702C700C771B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECCD171702C700C771B1 /* NSTrackingLogs-Info.plist */,
+				3635ECCE171702C700C771B1 /* InfoPlist.strings */,
+				3635ECD7171702C700C771B1 /* NSTrackingLogs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3635ECE11717030F00C771B1 /* OS X App For Testing */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECED1717031000C771B1 /* BTIAppDelegate.h */,
+				3635ECEE1717031000C771B1 /* BTIAppDelegate.m */,
+				3635ED1B171725D000C771B1 /* livetest.txt */,
+				3635ECF01717031000C771B1 /* MainMenu.xib */,
+				3635ECE21717031000C771B1 /* Supporting Files */,
+			);
+			name = "OS X App For Testing";
+			path = BTITestTrackingLogs;
+			sourceTree = "<group>";
+		};
+		3635ECE21717031000C771B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3635ECE31717031000C771B1 /* BTITestTrackingLogs-Info.plist */,
+				3635ECE41717031000C771B1 /* InfoPlist.strings */,
+				3635ECE71717031000C771B1 /* main.m */,
+				3635ECE91717031000C771B1 /* BTITestTrackingLogs-Prefix.pch */,
+				3635ECEA1717031000C771B1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3635ECFE1717031000C771B1 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3635ED041717031000C771B1 /* BTITestTrackingLogsTests.h */,
+				3635ED051717031000C771B1 /* BTITestTrackingLogsTests.m */,
+				3635ED2017172F8A00C771B1 /* Test Cases */,
+				3635ECFF1717031000C771B1 /* Supporting Files */,
+			);
+			name = "Unit Tests";
+			path = BTITestTrackingLogsTests;
+			sourceTree = "<group>";
+		};
+		3635ECFF1717031000C771B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3635ED001717031000C771B1 /* BTITestTrackingLogsTests-Info.plist */,
+				3635ED011717031000C771B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3635ED0D1717034E00C771B1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3635ED0E1717036000C771B1 /* NSString+BTIAdditions.h */,
+				3635ED0F1717036000C771B1 /* NSString+BTIAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		3635ED14171703A300C771B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3635ED15171706CB00C771B1 /* BTIStringProcessor.h */,
+				3635ED16171706CB00C771B1 /* BTIStringProcessor.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3635ED2017172F8A00C771B1 /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				3635ED21171731A600C771B1 /* test1input-UnsupportedInput.txt */,
+				3635ED261717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt */,
+				3635ED2B1717339D00C771B1 /* test2output-nslog.txt */,
+				3635ED301717361600C771B1 /* test2output-btilog.txt */,
+				3635ED35171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt */,
+				3635ED3A1717371400C771B1 /* test3output-nslog.txt */,
+				3635ED3F1717372000C771B1 /* test3output-btilog.txt */,
+				3635ED44171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt */,
+				3635ED49171738BB00C771B1 /* test4output-nslog.txt */,
+				3635ED4E171738CA00C771B1 /* test4output-btilog.txt */,
+				3635ED5317173BB100C771B1 /* test5input-ReturnInsideBlock.txt */,
+				3635ED5817173C1500C771B1 /* test5output-nslog.txt */,
+				3635ED5D17173C4500C771B1 /* test5output-btilog.txt */,
+				3635ED6217173DD100C771B1 /* test6input-ExistingNSLog.txt */,
+				3635ED6717173DE000C771B1 /* test6input-ExistingBTILog.txt */,
+				3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */,
+				3635ED7117174BB800C771B1 /* test7output-nslog.txt */,
+				3635ED7617174BC400C771B1 /* test7output-btilog.txt */,
+			);
+			name = "Test Cases";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3635ECA51717028800C771B1 /* BTITrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3635ECC01717028800C771B1 /* Build configuration list for PBXNativeTarget "BTITrackingLogs" */;
+			buildPhases = (
+				3635ECA11717028800C771B1 /* Sources */,
+				3635ECA21717028800C771B1 /* Frameworks */,
+				3635ECA31717028800C771B1 /* Resources */,
+				3635ECA41717028800C771B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTITrackingLogs;
+			productName = BTITrackingLogs;
+			productReference = 3635ECA61717028800C771B1 /* BTITrackingLogs.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3635ECC7171702C700C771B1 /* NSTrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3635ECD8171702C700C771B1 /* Build configuration list for PBXNativeTarget "NSTrackingLogs" */;
+			buildPhases = (
+				3635ECC3171702C700C771B1 /* Sources */,
+				3635ECC4171702C700C771B1 /* Frameworks */,
+				3635ECC5171702C700C771B1 /* Resources */,
+				3635ECC6171702C700C771B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTrackingLogs;
+			productName = NSTrackingLogs;
+			productReference = 3635ECC8171702C700C771B1 /* NSTrackingLogs.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3635ECDE1717030F00C771B1 /* BTITestTrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3635ED071717031000C771B1 /* Build configuration list for PBXNativeTarget "BTITestTrackingLogs" */;
+			buildPhases = (
+				3635ECDB1717030F00C771B1 /* Sources */,
+				3635ECDC1717030F00C771B1 /* Frameworks */,
+				3635ECDD1717030F00C771B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTITestTrackingLogs;
+			productName = BTITestTrackingLogs;
+			productReference = 3635ECDF1717030F00C771B1 /* BTITestTrackingLogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3635ECF71717031000C771B1 /* BTITestTrackingLogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3635ED0A1717031000C771B1 /* Build configuration list for PBXNativeTarget "BTITestTrackingLogsTests" */;
+			buildPhases = (
+				3635ECF31717031000C771B1 /* Sources */,
+				3635ECF41717031000C771B1 /* Frameworks */,
+				3635ECF51717031000C771B1 /* Resources */,
+				3635ECF61717031000C771B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3635ECFD1717031000C771B1 /* PBXTargetDependency */,
+			);
+			name = BTITestTrackingLogsTests;
+			productName = BTITestTrackingLogsTests;
+			productReference = 3635ECF81717031000C771B1 /* BTITestTrackingLogsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3635EC9D1717028800C771B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "BriTer Ideas LLC";
+			};
+			buildConfigurationList = 3635ECA01717028800C771B1 /* Build configuration list for PBXProject "BTITrackingLogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3635EC9C1717028800C771B1;
+			productRefGroup = 3635ECA71717028800C771B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3635ECA51717028800C771B1 /* BTITrackingLogs */,
+				3635ECC7171702C700C771B1 /* NSTrackingLogs */,
+				3635ECDE1717030F00C771B1 /* BTITestTrackingLogs */,
+				3635ECF71717031000C771B1 /* BTITestTrackingLogsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3635ECA31717028800C771B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECB61717028800C771B1 /* InfoPlist.strings in Resources */,
+				3635ECBC1717028800C771B1 /* main.xib in Resources */,
+				3635ED1C171725D000C771B1 /* livetest.txt in Resources */,
+				3635ED22171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */,
+				3635ED271717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */,
+				3635ED2C1717339D00C771B1 /* test2output-nslog.txt in Resources */,
+				3635ED311717361600C771B1 /* test2output-btilog.txt in Resources */,
+				3635ED36171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */,
+				3635ED3B1717371400C771B1 /* test3output-nslog.txt in Resources */,
+				3635ED401717372000C771B1 /* test3output-btilog.txt in Resources */,
+				3635ED45171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */,
+				3635ED4A171738BB00C771B1 /* test4output-nslog.txt in Resources */,
+				3635ED4F171738CA00C771B1 /* test4output-btilog.txt in Resources */,
+				3635ED5417173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */,
+				3635ED5917173C1500C771B1 /* test5output-nslog.txt in Resources */,
+				3635ED5E17173C4500C771B1 /* test5output-btilog.txt in Resources */,
+				3635ED6317173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */,
+				3635ED6817173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */,
+				3635ED6D17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */,
+				3635ED7217174BB800C771B1 /* test7output-nslog.txt in Resources */,
+				3635ED7717174BC500C771B1 /* test7output-btilog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECC5171702C700C771B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECD0171702C700C771B1 /* InfoPlist.strings in Resources */,
+				3635ECD6171702C700C771B1 /* main.xib in Resources */,
+				3635ED1D171725D000C771B1 /* livetest.txt in Resources */,
+				3635ED23171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */,
+				3635ED281717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */,
+				3635ED2D1717339D00C771B1 /* test2output-nslog.txt in Resources */,
+				3635ED321717361600C771B1 /* test2output-btilog.txt in Resources */,
+				3635ED37171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */,
+				3635ED3C1717371400C771B1 /* test3output-nslog.txt in Resources */,
+				3635ED411717372000C771B1 /* test3output-btilog.txt in Resources */,
+				3635ED46171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */,
+				3635ED4B171738BB00C771B1 /* test4output-nslog.txt in Resources */,
+				3635ED50171738CA00C771B1 /* test4output-btilog.txt in Resources */,
+				3635ED5517173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */,
+				3635ED5A17173C1500C771B1 /* test5output-nslog.txt in Resources */,
+				3635ED5F17173C4500C771B1 /* test5output-btilog.txt in Resources */,
+				3635ED6417173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */,
+				3635ED6917173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */,
+				3635ED6E17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */,
+				3635ED7317174BB800C771B1 /* test7output-nslog.txt in Resources */,
+				3635ED7817174BC500C771B1 /* test7output-btilog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECDD1717030F00C771B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECE61717031000C771B1 /* InfoPlist.strings in Resources */,
+				3635ECEC1717031000C771B1 /* Credits.rtf in Resources */,
+				3635ECF21717031000C771B1 /* MainMenu.xib in Resources */,
+				3635ED1E171725D000C771B1 /* livetest.txt in Resources */,
+				3635ED24171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */,
+				3635ED291717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */,
+				3635ED2E1717339D00C771B1 /* test2output-nslog.txt in Resources */,
+				3635ED331717361600C771B1 /* test2output-btilog.txt in Resources */,
+				3635ED38171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */,
+				3635ED3D1717371400C771B1 /* test3output-nslog.txt in Resources */,
+				3635ED421717372000C771B1 /* test3output-btilog.txt in Resources */,
+				3635ED47171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */,
+				3635ED4C171738BB00C771B1 /* test4output-nslog.txt in Resources */,
+				3635ED51171738CA00C771B1 /* test4output-btilog.txt in Resources */,
+				3635ED5617173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */,
+				3635ED5B17173C1500C771B1 /* test5output-nslog.txt in Resources */,
+				3635ED6017173C4500C771B1 /* test5output-btilog.txt in Resources */,
+				3635ED6517173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */,
+				3635ED6A17173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */,
+				3635ED6F17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */,
+				3635ED7417174BB800C771B1 /* test7output-nslog.txt in Resources */,
+				3635ED7917174BC500C771B1 /* test7output-btilog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECF51717031000C771B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ED031717031000C771B1 /* InfoPlist.strings in Resources */,
+				3635ED1F171725D000C771B1 /* livetest.txt in Resources */,
+				3635ED25171731A600C771B1 /* test1input-UnsupportedInput.txt in Resources */,
+				3635ED2A1717335800C771B1 /* test2input-SimpleMethodWithoutReturns.txt in Resources */,
+				3635ED2F1717339D00C771B1 /* test2output-nslog.txt in Resources */,
+				3635ED341717361600C771B1 /* test2output-btilog.txt in Resources */,
+				3635ED39171736D900C771B1 /* test3input-SimpleMethodWithSingleReturn.txt in Resources */,
+				3635ED3E1717371400C771B1 /* test3output-nslog.txt in Resources */,
+				3635ED431717372000C771B1 /* test3output-btilog.txt in Resources */,
+				3635ED48171738A400C771B1 /* test4input-VoidMethodWithEarlyReturn.txt in Resources */,
+				3635ED4D171738BB00C771B1 /* test4output-nslog.txt in Resources */,
+				3635ED52171738CA00C771B1 /* test4output-btilog.txt in Resources */,
+				3635ED5717173BB100C771B1 /* test5input-ReturnInsideBlock.txt in Resources */,
+				3635ED5C17173C1500C771B1 /* test5output-nslog.txt in Resources */,
+				3635ED6117173C4500C771B1 /* test5output-btilog.txt in Resources */,
+				3635ED6617173DD100C771B1 /* test6input-ExistingNSLog.txt in Resources */,
+				3635ED6B17173DE000C771B1 /* test6input-ExistingBTILog.txt in Resources */,
+				3635ED7017174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */,
+				3635ED7517174BB800C771B1 /* test7output-nslog.txt in Resources */,
+				3635ED7A17174BC500C771B1 /* test7output-btilog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3635ECA41717028800C771B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+		3635ECC6171702C700C771B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+		3635ECF61717031000C771B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3635ECA11717028800C771B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECB91717028800C771B1 /* BTITrackingLogs.m in Sources */,
+				3635ED101717036000C771B1 /* NSString+BTIAdditions.m in Sources */,
+				3635ED17171706CB00C771B1 /* BTIStringProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECC3171702C700C771B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECD3171702C700C771B1 /* NSTrackingLogs.m in Sources */,
+				3635ED111717036000C771B1 /* NSString+BTIAdditions.m in Sources */,
+				3635ED18171706CB00C771B1 /* BTIStringProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECDB1717030F00C771B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ECE81717031000C771B1 /* main.m in Sources */,
+				3635ECEF1717031000C771B1 /* BTIAppDelegate.m in Sources */,
+				3635ED121717036000C771B1 /* NSString+BTIAdditions.m in Sources */,
+				3635ED19171706CB00C771B1 /* BTIStringProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3635ECF31717031000C771B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635ED061717031000C771B1 /* BTITestTrackingLogsTests.m in Sources */,
+				3635ED131717036000C771B1 /* NSString+BTIAdditions.m in Sources */,
+				3635ED1A171706CB00C771B1 /* BTIStringProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3635ECFD1717031000C771B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3635ECDE1717030F00C771B1 /* BTITestTrackingLogs */;
+			targetProxy = 3635ECFC1717031000C771B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3635ECB41717028800C771B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECB51717028800C771B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3635ECBA1717028800C771B1 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECBB1717028800C771B1 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+		3635ECCE171702C700C771B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECCF171702C700C771B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3635ECD4171702C700C771B1 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECD5171702C700C771B1 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+		3635ECE41717031000C771B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECE51717031000C771B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3635ECEA1717031000C771B1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECEB1717031000C771B1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3635ECF01717031000C771B1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ECF11717031000C771B1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3635ED011717031000C771B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635ED021717031000C771B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3635ECBE1717028800C771B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3635ECBF1717028800C771B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3635ECC11717028800C771B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITrackingLogs/BTITrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITrackingLogs/BTITrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		3635ECC21717028800C771B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITrackingLogs/BTITrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITrackingLogs/BTITrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		3635ECD9171702C700C771B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTrackingLogs/NSTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "NSTrackingLogs/NSTrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		3635ECDA171702C700C771B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTrackingLogs/NSTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "NSTrackingLogs/NSTrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		3635ED081717031000C771B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestTrackingLogs/BTITestTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestTrackingLogs/BTITestTrackingLogs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3635ED091717031000C771B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestTrackingLogs/BTITestTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestTrackingLogs/BTITestTrackingLogs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3635ED0B1717031000C771B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTITestTrackingLogs.app/Contents/MacOS/BTITestTrackingLogs";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestTrackingLogs/BTITestTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestTrackingLogsTests/BTITestTrackingLogsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3635ED0C1717031000C771B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTITestTrackingLogs.app/Contents/MacOS/BTITestTrackingLogs";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestTrackingLogs/BTITestTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestTrackingLogsTests/BTITestTrackingLogsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3635ECA01717028800C771B1 /* Build configuration list for PBXProject "BTITrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635ECBE1717028800C771B1 /* Debug */,
+				3635ECBF1717028800C771B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3635ECC01717028800C771B1 /* Build configuration list for PBXNativeTarget "BTITrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635ECC11717028800C771B1 /* Debug */,
+				3635ECC21717028800C771B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3635ECD8171702C700C771B1 /* Build configuration list for PBXNativeTarget "NSTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635ECD9171702C700C771B1 /* Debug */,
+				3635ECDA171702C700C771B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3635ED071717031000C771B1 /* Build configuration list for PBXNativeTarget "BTITestTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635ED081717031000C771B1 /* Debug */,
+				3635ED091717031000C771B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3635ED0A1717031000C771B1 /* Build configuration list for PBXNativeTarget "BTITestTrackingLogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635ED0B1717031000C771B1 /* Debug */,
+				3635ED0C1717031000C771B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3635EC9D1717028800C771B1 /* Project object */;
+}

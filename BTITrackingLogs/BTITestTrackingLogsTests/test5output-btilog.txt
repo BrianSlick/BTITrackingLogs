@@ -1,0 +1,16 @@
+{
+	BTITrackingLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+
+	[originalLines enumerateObjectsUsingBlock:^(NSString *line, NSUInteger index, BOOL *stop) {
+	
+		if (someTest)
+		{
+			return;
+		}
+		
+	}];
+
+	// Now do the real work
+
+	BTITrackingLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+}

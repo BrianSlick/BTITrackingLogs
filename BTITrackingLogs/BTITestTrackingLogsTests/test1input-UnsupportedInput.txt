@@ -1,0 +1,6 @@
+// Nothing matters here
+{
+   Doesn't have to be actual code, really
+}
+Just needs to make sure that the selection begins and ends with { }
+// But this doesn't

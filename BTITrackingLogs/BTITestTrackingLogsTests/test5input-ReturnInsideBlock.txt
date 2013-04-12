@@ -1,0 +1,12 @@
+{
+	[originalLines enumerateObjectsUsingBlock:^(NSString *line, NSUInteger index, BOOL *stop) {
+	
+		if (someTest)
+		{
+			return;
+		}
+		
+	}];
+
+	// Now do the real work
+}
