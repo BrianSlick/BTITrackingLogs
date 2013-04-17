@@ -14,7 +14,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	NSURL *url = [[NSBundle mainBundle] URLForResource:@"livetest" withExtension:@"txt"];
+	NSURL *url = [[NSBundle mainBundle] URLForResource:@"test8input-returnWithoutBraces" withExtension:@"txt"];
 	
 	NSString *inputString = [[NSString alloc] initWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
 	

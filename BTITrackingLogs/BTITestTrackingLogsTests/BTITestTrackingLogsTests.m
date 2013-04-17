@@ -256,4 +256,64 @@
 	STAssertEqualObjects(outputString, outputStringReference, @"Existing logs should be converted to the new format");
 }
 
+#pragma mark - Test 8
+
+- (void)testNSLogVersionEarlyReturnWithoutBraces
+{
+	NSURL *inputURL = [[NSBundle mainBundle] URLForResource:@"test8input-returnWithoutBraces" withExtension:@"txt"];
+	NSURL *outputURL = [[NSBundle mainBundle] URLForResource:@"test8output-nslog" withExtension:@"txt"];
+	
+	NSString *inputString = [[NSString alloc] initWithContentsOfURL:inputURL encoding:NSUTF8StringEncoding error:nil];
+	NSString *outputStringReference = [[NSString alloc] initWithContentsOfURL:outputURL encoding:NSUTF8StringEncoding error:nil];
+	
+	BTIStringProcessor *processor = [[BTIStringProcessor alloc] initWithInputString:inputString forNSLogOutput:YES];
+	NSString *outputString = [processor outputString];
+		
+	STAssertEqualObjects(outputString, outputStringReference, @"Braces should be added if the return does not already have then");
+}
+
+- (void)testBTILogVersionEarlyReturnWithoutBraces
+{
+	NSURL *inputURL = [[NSBundle mainBundle] URLForResource:@"test8input-returnWithoutBraces" withExtension:@"txt"];
+	NSURL *outputURL = [[NSBundle mainBundle] URLForResource:@"test8output-btilog" withExtension:@"txt"];
+	
+	NSString *inputString = [[NSString alloc] initWithContentsOfURL:inputURL encoding:NSUTF8StringEncoding error:nil];
+	NSString *outputStringReference = [[NSString alloc] initWithContentsOfURL:outputURL encoding:NSUTF8StringEncoding error:nil];
+	
+	BTIStringProcessor *processor = [[BTIStringProcessor alloc] initWithInputString:inputString forNSLogOutput:NO];
+	NSString *outputString = [processor outputString];
+	
+	STAssertEqualObjects(outputString, outputStringReference, @"Braces should be added if the return does not already have then");
+}
+
+#pragma mark - Test 9
+
+- (void)testNSLogVersionFinalLineNonTrackingLogIsIgnored
+{
+	NSURL *inputURL = [[NSBundle mainBundle] URLForResource:@"test9input-lastLineIsAlog" withExtension:@"txt"];
+	NSURL *outputURL = [[NSBundle mainBundle] URLForResource:@"test9output-nslog" withExtension:@"txt"];
+	
+	NSString *inputString = [[NSString alloc] initWithContentsOfURL:inputURL encoding:NSUTF8StringEncoding error:nil];
+	NSString *outputStringReference = [[NSString alloc] initWithContentsOfURL:outputURL encoding:NSUTF8StringEncoding error:nil];
+	
+	BTIStringProcessor *processor = [[BTIStringProcessor alloc] initWithInputString:inputString forNSLogOutput:YES];
+	NSString *outputString = [processor outputString];
+		
+	STAssertEqualObjects(outputString, outputStringReference, @"Braces should be added if the return does not already have then");
+}
+
+- (void)testBTILogVersionFinalLineNonTrackingLogIsIgnored
+{
+	NSURL *inputURL = [[NSBundle mainBundle] URLForResource:@"test9input-lastLineIsAlog" withExtension:@"txt"];
+	NSURL *outputURL = [[NSBundle mainBundle] URLForResource:@"test9output-btilog" withExtension:@"txt"];
+	
+	NSString *inputString = [[NSString alloc] initWithContentsOfURL:inputURL encoding:NSUTF8StringEncoding error:nil];
+	NSString *outputStringReference = [[NSString alloc] initWithContentsOfURL:outputURL encoding:NSUTF8StringEncoding error:nil];
+	
+	BTIStringProcessor *processor = [[BTIStringProcessor alloc] initWithInputString:inputString forNSLogOutput:NO];
+	NSString *outputString = [processor outputString];
+		
+	STAssertEqualObjects(outputString, outputStringReference, @"Braces should be added if the return does not already have then");
+}
+
 @end

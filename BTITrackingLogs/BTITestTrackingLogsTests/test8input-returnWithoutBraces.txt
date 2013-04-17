@@ -1,0 +1,6 @@
+{
+	if (somethingBad)
+		return;
+
+	return;
+}

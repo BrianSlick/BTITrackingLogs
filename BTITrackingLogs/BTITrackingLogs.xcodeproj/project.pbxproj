@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362192DD171EDFFB0091C290 /* test8input-returnWithoutBraces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192DC171EDFFB0091C290 /* test8input-returnWithoutBraces.txt */; };
+		362192DE171EDFFB0091C290 /* test8input-returnWithoutBraces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192DC171EDFFB0091C290 /* test8input-returnWithoutBraces.txt */; };
+		362192E0171EE02A0091C290 /* test8output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192DF171EE02A0091C290 /* test8output-nslog.txt */; };
+		362192E1171EE02A0091C290 /* test8output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192DF171EE02A0091C290 /* test8output-nslog.txt */; };
+		362192E3171EE0520091C290 /* test8output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192E2171EE0520091C290 /* test8output-btilog.txt */; };
+		362192E4171EE0520091C290 /* test8output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192E2171EE0520091C290 /* test8output-btilog.txt */; };
+		362192E6171EE5CC0091C290 /* test9input-lastLineIsAlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192E5171EE5CC0091C290 /* test9input-lastLineIsAlog.txt */; };
+		362192E7171EE5CC0091C290 /* test9input-lastLineIsAlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192E5171EE5CC0091C290 /* test9input-lastLineIsAlog.txt */; };
+		362192E9171F24650091C290 /* test9output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192E8171F24640091C290 /* test9output-nslog.txt */; };
+		362192EA171F24650091C290 /* test9output-nslog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192E8171F24640091C290 /* test9output-nslog.txt */; };
+		362192EC171F24730091C290 /* test9output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192EB171F24730091C290 /* test9output-btilog.txt */; };
+		362192ED171F24730091C290 /* test9output-btilog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362192EB171F24730091C290 /* test9output-btilog.txt */; };
 		3635ECAA1717028800C771B1 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECA91717028800C771B1 /* Automator.framework */; };
 		3635ECAC1717028800C771B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635ECAB1717028800C771B1 /* Cocoa.framework */; };
 		3635ECB61717028800C771B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3635ECB41717028800C771B1 /* InfoPlist.strings */; };
@@ -124,6 +136,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362192DC171EDFFB0091C290 /* test8input-returnWithoutBraces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test8input-returnWithoutBraces.txt"; sourceTree = "<group>"; };
+		362192DF171EE02A0091C290 /* test8output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test8output-nslog.txt"; sourceTree = "<group>"; };
+		362192E2171EE0520091C290 /* test8output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test8output-btilog.txt"; sourceTree = "<group>"; };
+		362192E5171EE5CC0091C290 /* test9input-lastLineIsAlog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test9input-lastLineIsAlog.txt"; sourceTree = "<group>"; };
+		362192E8171F24640091C290 /* test9output-nslog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test9output-nslog.txt"; sourceTree = "<group>"; };
+		362192EB171F24730091C290 /* test9output-btilog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test9output-btilog.txt"; sourceTree = "<group>"; };
 		3635ECA61717028800C771B1 /* BTITrackingLogs.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTITrackingLogs.action; sourceTree = BUILT_PRODUCTS_DIR; };
 		3635ECA91717028800C771B1 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
 		3635ECAB1717028800C771B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -397,6 +415,12 @@
 				3635ED6C17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt */,
 				3635ED7117174BB800C771B1 /* test7output-nslog.txt */,
 				3635ED7617174BC400C771B1 /* test7output-btilog.txt */,
+				362192DC171EDFFB0091C290 /* test8input-returnWithoutBraces.txt */,
+				362192DF171EE02A0091C290 /* test8output-nslog.txt */,
+				362192E2171EE0520091C290 /* test8output-btilog.txt */,
+				362192E5171EE5CC0091C290 /* test9input-lastLineIsAlog.txt */,
+				362192E8171F24640091C290 /* test9output-nslog.txt */,
+				362192EB171F24730091C290 /* test9output-btilog.txt */,
 			);
 			name = "Test Cases";
 			sourceTree = "<group>";
@@ -588,6 +612,12 @@
 				3635ED6F17174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */,
 				3635ED7417174BB800C771B1 /* test7output-nslog.txt in Resources */,
 				3635ED7917174BC500C771B1 /* test7output-btilog.txt in Resources */,
+				362192DD171EDFFB0091C290 /* test8input-returnWithoutBraces.txt in Resources */,
+				362192E0171EE02A0091C290 /* test8output-nslog.txt in Resources */,
+				362192E3171EE0520091C290 /* test8output-btilog.txt in Resources */,
+				362192E6171EE5CC0091C290 /* test9input-lastLineIsAlog.txt in Resources */,
+				362192E9171F24650091C290 /* test9output-nslog.txt in Resources */,
+				362192EC171F24730091C290 /* test9output-btilog.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +645,12 @@
 				3635ED7017174BA600C771B1 /* test7input-UpgradeOldLogFormat.txt in Resources */,
 				3635ED7517174BB800C771B1 /* test7output-nslog.txt in Resources */,
 				3635ED7A17174BC500C771B1 /* test7output-btilog.txt in Resources */,
+				362192DE171EDFFB0091C290 /* test8input-returnWithoutBraces.txt in Resources */,
+				362192E1171EE02A0091C290 /* test8output-nslog.txt in Resources */,
+				362192E4171EE0520091C290 /* test8output-btilog.txt in Resources */,
+				362192E7171EE5CC0091C290 /* test9input-lastLineIsAlog.txt in Resources */,
+				362192EA171F24650091C290 /* test9output-nslog.txt in Resources */,
+				362192ED171F24730091C290 /* test9output-btilog.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -970,6 +1006,7 @@
 				3635ECC21717028800C771B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3635ECD8171702C700C771B1 /* Build configuration list for PBXNativeTarget "NSTrackingLogs" */ = {
 			isa = XCConfigurationList;
@@ -978,6 +1015,7 @@
 				3635ECDA171702C700C771B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3635ED071717031000C771B1 /* Build configuration list for PBXNativeTarget "BTITestTrackingLogs" */ = {
 			isa = XCConfigurationList;
@@ -986,6 +1024,7 @@
 				3635ED091717031000C771B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3635ED0A1717031000C771B1 /* Build configuration list for PBXNativeTarget "BTITestTrackingLogsTests" */ = {
 			isa = XCConfigurationList;
@@ -994,6 +1033,7 @@
 				3635ED0C1717031000C771B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
