@@ -111,8 +111,8 @@ BTITrackingLogs can be cloned from its git repository on github. You can find th
 
 ## Requirements and supported OS versions
 
-- Tested on Mountain Lion.  Not sure how far back it will work.
-- From what I can tell, you have to use garbage collection with actions.  The code looks pretty much like ARC code, but as far as compiler settings go, don't use ARC.  Ignore the warning about GC being deprecated.
+- Tested on Mavericks.  Not sure how far back it will work.  Previous version worked fine on Mountain Lion.
+- Current build target is Mavericks, which uses ARC.  If building for anything older, you have to use garbage collection.
 
 
 ## License
