@@ -5,3 +5,10 @@
 #ifdef __OBJC__
 	#import <Cocoa/Cocoa.h>
 #endif
+
+// http://clingingtoideas.blogspot.com/2009/08/it-nslog-nslog.html
+#ifdef BTIBLOCKNSLOGSTATEMENTS
+#define NSLog(format, ...)
+#else
+#define NSLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#endif

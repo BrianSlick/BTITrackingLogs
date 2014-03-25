@@ -36,6 +36,7 @@
 	}
 	return self;
 }
+
 - (NSString *)outputString
 {
 	NSString *inputString = [self originalString];
