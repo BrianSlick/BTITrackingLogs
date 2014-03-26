@@ -1,9 +1,9 @@
 {
-	NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+    NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
 
-	// Whatever
+    // Whatever
 
-	NSLog(@"This is not a tracking log");
+    NSLog(@"This is not a tracking log");
 
-	NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+    NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
 }

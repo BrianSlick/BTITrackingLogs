@@ -1,8 +1,8 @@
 {
-	if (someCondition)
-	{
-		return;
-	}
+    if (someCondition)
+    {
+        return;
+    }
 
-	// Now do the real work
+    // Now do the real work
 }

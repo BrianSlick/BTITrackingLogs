@@ -11,7 +11,7 @@
 #import "NSString+BTIAdditions.h"
 
 // Private Constants
-#define kIndent										@"\t"
+#define kIndent										@"    "
 
 @interface BTIStringProcessor ()
 

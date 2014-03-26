@@ -1,6 +1,6 @@
 {
-	NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+    NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
 
-	NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
-	return;
+    NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+    return;
 }

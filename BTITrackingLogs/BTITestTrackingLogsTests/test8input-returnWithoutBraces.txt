@@ -1,6 +1,6 @@
 {
-	if (somethingBad)
-		return;
+    if (somethingBad)
+        return;
 
-	return;
+    return;
 }
