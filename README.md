@@ -117,7 +117,7 @@ BTITrackingLogs can be cloned from its git repository on github. You can find th
 
 ## License
 
-BTILazyLoadingGetters is distributed freely.  Use it or modify it in any way you see fit.
+BTITrackingLogs is distributed freely.  Use it or modify it in any way you see fit.
 
 
 ## Saying Thank You
