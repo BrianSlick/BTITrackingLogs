@@ -131,6 +131,6 @@ If you find this code useful, then any of the following would really make me hap
 
 There is very little support offered with this code.  I am always interested in better ways of doing things, so I'll be happy to consider feature requests.  (Note, "consider" doesn't mean I will do anything).
 
-To discuss this project, please post in [this thread](http://iphonedevsdk.com/forum/iphone-sdk-development/52981-free-utility-for-adding-logs.html).
+For questions or to otherwise discuss this project, please post in [this thread](http://iphonedevsdk.com/forum/open-source-code/118428-btitrackinglogs.html).
 
 (This README has been adapted from [MGWordCounter](https://github.com/mattgemmell/MGWordCounter) by Matt Gemmell)
