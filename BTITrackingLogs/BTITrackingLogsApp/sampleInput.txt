@@ -1,0 +1,8 @@
+{
+    if (something)
+    {
+        return;
+    }
+    
+    // Sample
+}

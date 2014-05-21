@@ -1,0 +1,13 @@
+{
+    DLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+
+    if (something)
+    {
+        DLog(@"<<< Leaving  <%p> %s >>> EARLY - <#Reason Not Specified#>", self, __PRETTY_FUNCTION__);
+        return;
+    }
+    
+    // Sample
+
+    DLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+}

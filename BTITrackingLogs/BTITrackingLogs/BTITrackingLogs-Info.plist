@@ -20,43 +20,43 @@
 	<key>AMCanShowWhenRun</key>
 	<true/>
 	<key>AMCategory</key>
-	<string>AMCategoryUtilities</string>
+	<string>AMCategoryText</string>
 	<key>AMDefaultParameters</key>
 	<dict/>
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDAlert</key>
-		<string>(* AMDAlert text goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDInput</key>
-		<string>(* AMDInput text to further explain the types accepted as input goes here. (optional) *)</string>
+		<string>Text beginning with { and ending with }</string>
 		<key>AMDNote</key>
-		<string>(* AMDNote text goes here. (optional) *)</string>
+		<string>The text input must begin with { and end with }. Double-clicking method braces is the quickest way to accomplish this.</string>
 		<key>AMDOptions</key>
-		<string>(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)</string>
+		<string>This action has built-in support for NSLog and BTITrackingLog output. Different log types can be specified with the corresponding setting.</string>
 		<key>AMDRelatedActions</key>
-		<string>(* AMDRelatedActions bundle ids go here. (optional) *)</string>
+		<string></string>
 		<key>AMDRequires</key>
-		<string>(* AMDRequires text to explain anything outside of Automator required for the action&apos;s operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDResult</key>
-		<string>(* AMDResult text to further explain the types provided as output goes here. (optional) *)</string>
+		<string>Text with tracking logs added</string>
 		<key>AMDSummary</key>
-		<string>(* AMDSummary text to explain what your action does goes here. *)</string>
+		<string>Adds tracking logs to the selection, with a configurable log prefix.</string>
 		<key>AMDWebsite</key>
-		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+		<string>https://github.com/BriTerIdeas/BTITrackingLogs</string>
 	</dict>
 	<key>AMIconName</key>
 	<string>(* The name of the icon *)</string>
 	<key>AMKeywords</key>
 	<array/>
 	<key>AMName</key>
-	<string>Make BTITracking Logs</string>
+	<string>Add Tracking Logs</string>
 	<key>AMProvides</key>
 	<dict>
 		<key>Container</key>
 		<string>List</string>
 		<key>Types</key>
 		<array>
-			<string>com.apple.cocoa.path</string>
+			<string>com.apple.cocoa.string</string>
 		</array>
 	</dict>
 	<key>AMRequiredResources</key>
@@ -85,15 +85,15 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MakeBTITrackingLogs</string>
+	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>3.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>3.0</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2014 BriTer Ideas LLC. All rights reserved.</string>
 	<key>NSPrincipalClass</key>

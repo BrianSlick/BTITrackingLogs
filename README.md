@@ -36,7 +36,7 @@ Get this output:
          
     if (somethingBadHappened)
     {
-        NSLog(@"<<< Leaving  <%p> %s >>> EARLY - <reason not specified>", self, __PRETTY_FUNCTION__);
+        NSLog(@"<<< Leaving  <%p> %s >>> EARLY - <#reason not specified#>", self, __PRETTY_FUNCTION__);
         return nil;
     }
          
@@ -47,14 +47,18 @@ Get this output:
 }
 ```
 
-When this code is run, the specific console output will look something like this:
+When this code is run, the console output will look something like this:
 
 ```
 >>> Entering <0x833a1d0> -[SamplePlainViewController initWithNibName:bundle:] <<<
 <<< Leaving  <0x833a1d0> -[SamplePlainViewController initWithNibName:bundle:] >>>
 ```
 
-An alternate version is included that uses "BTITrackingLog" instead of "NSLog", so that these logs can be disabled independent of other logs.  The project builds two different Automator actions, depending on desired output.  If you have your own log macro such as DLog, the code can be easily modified with whatever prefix you need. 
+**New in Version 3.0**: A user interface! With options!
+
+![Screenshot](action_screenshot.png)
+
+The action can now be customized to provide any logging prefix that you want (Ex: DLog). The previous version of this action had 2 different targets, one for each supported prefix. Now there is just 1 target, and through the new UI you can select the prefix that you want. You will still need multiple Workflows if you want different kinds of output.
 
 Also included is a testing app, with a few unit tests, since testing Automator actions in Automator is really annoying.
 
@@ -88,10 +92,12 @@ Misc tip: During development I frequently found that Automator and/or the Servic
 - The original text selection should be unharmed if this action is not able to insert the logs.
 - The action will put an "entering" log at the beginning, and a "leaving" log at the end. If the method returns a value, the leaving log will be placed before the return line.
 - If the method has multiple exit points, additional logs will be placed before those return lines, with placeholder text meant to indicate a reason for leaving there. This helps to determine which route the flow of execution took through your code.
+- **New in Version 3.0**: The placeholder text is now coded to be tab-selectable in Xcode.
 - The action should ignore any return lines that are inside of blocks.
 - It will not create duplicate logs if logs are already there.
 - I have an older output format (see comments in code) that I've been using for a while. If found, those logs will be converted to the new format.
-- Running the BTITrackingLog version will convert existing NSLogs.  Running the NSLog version will convert existing BTITrackingLogs.
+- Running the BTITrackingLog version will convert existing NSLogs.  Running the NSLog version will convert existing BTITrackingLogs. I'm afraid I don't handle any other custom prefixes, so if you run the NSLog version over top of the DLog output, for example, you will get extra logs.
+- **New in Version 3.0**: Smart(er) handling of indent styles. Version 1 hard-coded tabs. Version 2 hard-coded spaces. Version 3 will scan the text selection, see what leading whitespace is most commonly used, and then the logs will be indented the same way. Spaces are used if a determination cannot be made.
 
 
 ### Why did you create this?

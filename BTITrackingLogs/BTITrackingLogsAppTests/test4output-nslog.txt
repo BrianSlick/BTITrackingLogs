@@ -1,0 +1,13 @@
+{
+    NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+
+    if (something)
+    {
+        NSLog(@"<<< Leaving  <%p> %s >>> EARLY - <#Reason Not Specified#>", self, __PRETTY_FUNCTION__);
+        return;
+    }
+    
+    // Sample
+
+    NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+}

@@ -1,0 +1,13 @@
+{
+    BTITrackingLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+
+    if (something)
+    {
+        BTITrackingLog(@"<<< Leaving  <%p> %s >>> EARLY - <#Reason Not Specified#>", self, __PRETTY_FUNCTION__);
+        return;
+    }
+    
+    // Sample
+
+    BTITrackingLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+}
